@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }, observerOptions);
 
     // Select all elements to animate
-    const animateElements = document.querySelectorAll('.timeline-item, .project-card, .skill-category, .pub-item, .edu-item');
+    const animateElements = document.querySelectorAll('.timeline-item, .project-card, .featured-project, .skills-wrapper, .skill-category, .pub-item, .edu-item, .fade-in');
     animateElements.forEach(el => {
         el.classList.add('fade-in');
         observer.observe(el);
