@@ -1,121 +1,190 @@
-<!DOCTYPE html>
-<html lang="en">
+import re
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sowjanya Krishna — Industrial IoT & Digital Twins</title>
-  <meta name="description"
-    content="Portfolio of Sowjanya Krishna, Research Scientist in Industrial IoT, Digital Twins, and Data Spaces.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles/style.css">
-</head>
+# Update CSS
+with open('styles/style.css', 'r') as f:
+    css = f.read()
 
-<body>
+css_new = """/* Projects Stack (Parth Style) */
+.projects-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
 
-  <!-- Header -->
-  <header>
-    <div class="container header-inner">
-      <div class="brand">Sowjanya Krishna</div>
-      <nav class="nav-links">
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#publications">Publications</a>
-        <a href="assets/krishna_sowjanya.pdf" target="_blank" class="cv-btn">Download CV</a>
-      </nav>
-    </div>
-  </header>
+.featured-project {
+  display: flex;
+  flex-direction: row;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 16px;
+  overflow: hidden;
+  transition: var(--transition);
+}
 
-  <main>
-    <!-- Hero Section -->
-    <section id="hero" class="hero container">
-      <div class="hero-content">
-        <div class="hero-text">
-          <span class="badge fade-in">Open for Opportunities</span>
-          <h1 class="fade-in" style="animation-delay: 0.1s;">
-            Hi, I'm <span class="highlight">Sowjanya</span>
-          </h1>
-          <p class="subtitle fade-in" style="animation-delay: 0.2s;">
-            Research Scientist focused on <strong>Industrial IoT</strong>, <strong>Digital Twins</strong>, and
-            <strong>Data Spaces</strong>. Bridging the gap between production floors and scalable cloud ecosystems.
-          </p>
-          <div class="cta-group fade-in" style="animation-delay: 0.3s;">
-            <a href="#projects" class="btn btn-primary">Explore Work</a>
-            <a href="mailto:sowjanyakrishna198@gmail.com" class="btn btn-secondary">Contact Me</a>
-            <a href="https://linkedin.com/in/sowjanyakrishna" target="_blank" class="btn btn-secondary">LinkedIn</a>
-            <a href="https://github.com/SowjanyaKrishna" target="_blank" class="btn btn-secondary">GitHub</a>
-          </div>
-        </div>
-        <div class="hero-graphic fade-in" style="animation-delay: 0.4s;">
-          <img src="assets/img/profile_placeholder_1781890683665.png" alt="Sowjanya Krishna Avatar">
-        </div>
-      </div>
-    </section>
+.featured-project:nth-child(even) {
+  flex-direction: row-reverse;
+}
 
-    <!-- Experience Section -->
-    <section id="experience" class="container">
-      <h2>Experience</h2>
-      <div class="timeline">
+.featured-project:hover {
+  transform: translateY(-10px);
+  border-color: rgba(255,255,255,0.2);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
 
-        <div class="timeline-item fade-in">
-          <span class="timeline-date">12/2023 - Present</span>
-          <div class="timeline-content">
-            <h3 class="timeline-title">Research Scientist, IT Systems</h3>
-            <div class="timeline-company">Fraunhofer IPA, Stuttgart</div>
-            <ul>
-              <li>Designed and implemented industrial digitalization workflows connecting data sources, metadata
-                catalogues, digital tools, and digital twin systems.</li>
-              <li>Developed digital twin and data-space concepts for KI Data Platform using AAS, BaSyx/FA3ST, DCAT-AP,
-                and Manufacturing-X/Catena-X principles.</li>
-              <li>Built time-series abstraction workflows for H2Giga using InfluxDB, MQTT/event triggers, BaSyx, and
-                IDTA Time Series Submodels.</li>
-              <li>Implemented IT/OT data integration for ExELPro using SmartUnifier, OPC UA, InfluxDB, edge devices, and
-                ML-ready production datasets.</li>
-              <li>Connected production, energy, and sustainability data for DigiBattPro 4.0 with LCA/PCF workflows.</li>
-            </ul>
-          </div>
-        </div>
+.featured-project-img {
+  flex: 1;
+  position: relative;
+  min-height: 300px;
+}
 
-        <div class="timeline-item fade-in">
-          <span class="timeline-date">04/2023 - 08/2023</span>
-          <div class="timeline-content">
-            <h3 class="timeline-title">Working Student, Smart Building IoT</h3>
-            <div class="timeline-company">ARENA 2036 & SPIE, Stuttgart</div>
-            <ul>
-              <li>Developed end-to-end IoT data workflows for smart building and industrial monitoring, enabling sensor
-                data to be collected, processed, and visualized.</li>
-              <li>Built Azure-based data handling workflows to collect, process, and structure sensor data.</li>
-              <li>Created Grafana dashboards for real-time visualization of environmental conditions and sensor trends.
-              </li>
-            </ul>
-          </div>
-        </div>
+.featured-project-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.5s;
+}
 
-        <div class="timeline-item fade-in">
-          <span class="timeline-date">05/2022 - 10/2022</span>
-          <div class="timeline-content">
-            <h3 class="timeline-title">Intern, IoT Edge Software</h3>
-            <div class="timeline-company">Robert Bosch Power Tools GmbH, Stuttgart</div>
-            <ul>
-              <li>Implemented over-the-air software rollout for IoT edge devices, enabling remote updates via Bosch IoT
-                Suite.</li>
-              <li>Developed standardized MQTT-based edge-to-cloud communication workflows for software-updatable IoT
-                devices.</li>
-              <li>Built software-updatable device feature models using Eclipse Vorto and Hawkbit.</li>
-            </ul>
-          </div>
-        </div>
+.featured-project:hover .featured-project-img img {
+  transform: scale(1.05);
+}
 
-      </div>
-    </section>
+.featured-project-content {
+  flex: 1;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
-    <!-- Projects Section -->
-    <section id="projects" class="container">
-      <h2>Featured Projects</h2>
-            <div class="projects-stack">
+.featured-project-title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.featured-project-desc {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.featured-project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: auto;
+}
+
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid var(--card-border);
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  transition: var(--transition);
+}
+
+.project-link:hover {
+  background: rgba(14, 165, 233, 0.2);
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+}
+
+/* Skills (Sharath Style) */
+.skills-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 16px;
+  padding: 2.5rem;
+}
+
+.skill-group {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  padding-bottom: 1.5rem;
+}
+
+.skill-group:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.skill-group-title {
+  min-width: 250px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--text-primary);
+}
+
+.skill-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.chip {
+  padding: 0.4rem 1rem;
+  background: rgba(14, 165, 233, 0.1);
+  border: 1px solid rgba(14, 165, 233, 0.2);
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--accent-color);
+  transition: var(--transition);
+}
+
+.chip:hover {
+  background: var(--accent-color);
+  color: #fff;
+}
+
+@media (max-width: 900px) {
+  .featured-project, .featured-project:nth-child(even) {
+    flex-direction: column;
+  }
+  .featured-project-img {
+    min-height: 250px;
+  }
+  .skill-group {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .skill-group-title {
+    min-width: auto;
+  }
+}
+"""
+
+css_regex = re.compile(r'/\* Projects Grid \*/.*?\.skill-tag:hover \{[^}]*\}\s*\}?', re.DOTALL)
+css_updated = css_regex.sub(css_new, css)
+
+with open('styles/style.css', 'w') as f:
+    f.write(css_updated)
+
+# Update HTML
+with open('index.html', 'r') as f:
+    html = f.read()
+
+html_new = """      <div class="projects-stack">
 
         <!-- Project 1 -->
         <div class="featured-project fade-in">
@@ -279,60 +348,11 @@
           </div>
         </div>
 
-      </div>
-    </section>
+      </div>"""
 
-    <!-- Publications & Education -->
-    <section class="container"
-      style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 4rem;">
+html_regex = re.compile(r'<div class="projects-grid">.*?</section>\s*<!-- Publications & Education -->', re.DOTALL)
+html_updated = html_regex.sub(html_new + '\n    </section>\n\n    <!-- Publications & Education -->', html)
 
-      <div id="publications">
-        <h2>Publications</h2>
-        <div class="pub-list">
-          <div class="pub-item fade-in">
-            <div class="pub-title">An Automated Workflow for the PCF Calculation of Battery Cells</div>
-            <div class="pub-meta">May 2026 • DOI: 10.1007/978-3-032-21157-6_22</div>
-          </div>
-          <div class="pub-item fade-in">
-            <div class="pub-title">Leveraging Digital Twins for Real-Time Environmental Monitoring in Battery
-              Manufacturing</div>
-            <div class="pub-meta">DOI: 10.1016/j.procir.2024.10.159</div>
-          </div>
-          <div class="pub-item fade-in">
-            <div class="pub-title">CCPT conference - Sovereign Data Spaces and Interoperable Digital Twins for Automated
-              PCF</div>
-            <div class="pub-meta">Yet to be published</div>
-          </div>
-        </div>
-      </div>
+with open('index.html', 'w') as f:
+    f.write(html_updated)
 
-      <div id="education">
-        <h2>Education</h2>
-        <div class="edu-list">
-          <div class="edu-item fade-in">
-            <div class="edu-title" style="font-weight: 600; font-size: 1.1rem;">M.Sc. Information Technology</div>
-            <div class="edu-company" style="margin-bottom: 0.5rem;">University of Stuttgart, Germany</div>
-            <div class="edu-meta">10/2020 - 08/2023 • Industrial Automation, Real-time concepts, Deep learning</div>
-          </div>
-          <div class="edu-item fade-in">
-            <div class="edu-title" style="font-weight: 600; font-size: 1.1rem;">B.Eng. Electronics and Communication
-            </div>
-            <div class="edu-company" style="margin-bottom: 0.5rem;">Alliance University, Bengaluru</div>
-            <div class="edu-meta">07/2015 - 08/2019 • Embedded Systems, Control Systems</div>
-          </div>
-        </div>
-      </div>
-
-    </section>
-  </main>
-
-  <footer>
-    <div class="container">
-      <p>© 2026 Sowjanya Krishna.</p>
-    </div>
-  </footer>
-
-  <script src="js/main.js"></script>
-</body>
-
-</html>
