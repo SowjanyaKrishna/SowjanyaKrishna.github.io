@@ -1,0 +1,783 @@
+Sowjanya Krishna
+Detailed Work Experience Source Document
+Fraunhofer IPA experience updated: December 2023 - June 2026
+Prepared for: resume input, Git/portfolio README material, LinkedIn updates, interview preparation, and project documentation
+Important document scope This is a detailed source document, not an updated resume. It intentionally contains long project descriptions, work-done notes, technology lists, and resume-ready bullet options. For a real resume, select only the strongest bullets and compress the content to 1-2 pages. Before uploading to Git, remove confidential partner/client names, internal URLs, credentials, IP addresses, unpublished research details, and private screenshots.
+
+Source inputs used
+Your previous resume content for earlier roles and academic projects.
+Your Fraunhofer project notes from this conversation, including DigiBattPro, KI Data Platform, H2Giga/FRHY, CCIT/Manufacturing-X PCF, ExELPro, and FFB Lab Hub.
+The AAS Abstraction Layer architecture image and the ExELPro/EMS data pipeline image uploaded in this chat.
+Previously shared CCPT presentation material and FFB Lab Hub concept material in your file history, used only to enrich the source document and not as a public release.
+
+Contents
+1. How to use this work file
+2. Career timeline overview
+3. Current experience: Fraunhofer IPA (Dec 2023 - Jun 2026)
+4. Detailed Fraunhofer project portfolio
+5. Previous professional experience
+6. Academic and earlier technical projects from previous resume
+7. Resume-ready bullet bank
+8. Git / portfolio update material
+9. Skills matrix
+10. Confidentiality and verification checklist
+1. How to use this work file
+For resume updates: copy only the strongest bullet options from each project. Do not paste full project descriptions into a resume.
+For Git / portfolio: use the Git descriptions and project structure notes to create README sections, architecture explanations, and anonymized screenshots.
+For LinkedIn: compress the Fraunhofer summary into one experience block and add selected high-level project keywords.
+For interviews: use each detailed project entry as a STAR story: situation, task, action, result.
+For accuracy: verify exact project names, dates, public/confidential status, and funding/program labels before external use.
+2. Career timeline overview
+Period
+Organization / role
+Location
+Core focus
+Dec 2023 - Jun 2026
+Fraunhofer IPA - Research Associate / Scientific Assistant (verify official title)
+Stuttgart, Germany
+Industrial data spaces, AAS, digital twins, Product Carbon Footprint, battery production digitalization, metadata catalogues, Piveau/DCAT-AP, BaSyx/FA3ST, InfluxDB, OpenLCA, web/PyQt/Next.js tools.
+Apr 2023 - Dec 2023 (verify exact end date)
+ARENA 2036 & SPIE - Werkstudent
+Stuttgart, Germany
+IoT sensor data analytics, Azure-based data collection, InfluxDB/Grafana dashboards, MQTT, 5G/IIoT context.
+May 2022 - Oct 2022
+Robert Bosch Power Tools GmbH - Praktikum
+Stuttgart, Germany
+Embedded software for IoT edge devices, software rollout, OTA updates, MQTT edge-to-cloud communication, Eclipse Vorto/Hawkbit/Bosch IoT Suite.
+Aug 2021 - Mar 2022
+Dispendix GmbH - Werkstudent
+Stuttgart, Germany
+STM32 firmware, PCB design/testing, laboratory automation and liquid-handling systems.
+2019 and earlier
+Bachelor internships and university projects
+India / Germany
+Electronics, IoT, robotics, spintronics measurement system, smart farming, AMR perception and safety projects.
+
+Date check The previous resume listed ARENA 2036 & SPIE as April 2023 - Present. Since the Fraunhofer role starts in December 2023, verify the exact ARENA end month before using the timeline in a formal resume.
+
+3. Current experience: Fraunhofer IPA (Dec 2023 - Jun 2026)
+Field
+Details
+Position
+Research Associate/Wissenschaftliche Mitarbeiterin, Fraunhofer IPA, Stuttgart, Germany 
+Period
+December 2023 - Current, as requested for this source document.
+Professional focus
+Software tools, data-space concepts, metadata workflows, digital-twin components, Asset Administration Shell integrations, Product Carbon Footprint workflows, and battery-production data pipelines.
+Working style
+Combination of implementation, architecture design, data-model mapping, backend/frontend development, requirements engineering, coordination, research documentation, and demonstrator preparation.
+
+Overall responsibility areas
+Designed and implemented software workflows that connect industrial data sources, Asset Administration Shell models, metadata catalogues, and PCF/LCA calculation tools.
+Worked on data-space and metadata-platform requirements using DCAT-AP, Piveau, AAS concepts, Catena-X-aligned ideas, Manufacturing-X concepts, and manufacturing data-sharing use cases.
+Built backend services and frontend/PyQt/Next.js applications to query AAS repositories, map metadata, configure datasets, tag data, and publish dataset descriptions to Piveau or data-space-ready catalogues.
+Created APIs and visualization concepts for Product Carbon Footprint demonstrators, including OpenLCA/LCI outputs, scrap analysis, Sankey diagrams, dynamic PCF dashboards, and battery-production process data.
+Developed time-series AAS abstraction workflows using InfluxDB, BaSyx/FA3ST service repositories, IDTA Time Series Submodel concepts, tagging services, event triggers, and dynamic submodel creation.
+Supported research papers, study reports, proposal inputs, annual-report content, sprint/use-case material, architecture diagrams, and project presentations related to manufacturing data sharing, PCF automation, battery production, and industrial data platforms.
+Coordinated and structured work in projects such as ExELPro by translating production-stage data acquisition needs into technical pipelines for SmartUnifier, EMS, InfluxDB, and ML-ready training data.
+High-level Fraunhofer profile paragraph
+At Fraunhofer IPA, Sowjanya worked at the intersection of industrial software engineering, data spaces, Asset Administration Shell, product carbon footprint automation, digital twins, and battery-production digitalization. Her work included Python/Flask backends, Vue/React/PyQt/Next.js user interfaces, Piveau/DCAT-AP publication workflows, BaSyx/FA3ST AAS integrations, OpenLCA-based PCF APIs, InfluxDB time-series abstractions, SmartUnifier/EMS data pipelines, and project-specific demonstrators for manufacturing, sustainability, and battery value-chain use cases.
+Main technologies used at Fraunhofer
+Field
+Details
+Programming and backend
+Python, Flask, REST APIs, service-oriented backend design, data transformation scripts, API route design, configuration files, data pipelines.
+Frontend and tools
+Vue.js, React, Vuetify, PyQt, Next.js, dashboard and GUI design, configuration tables, booking/overview UIs, Sankey and chart visualizations.
+Industrial data / AAS
+Asset Administration Shell, BaSyx, FA3ST/FAAAST Service Repository, AAS registries, AAS submodels, IDTA Time Series Submodel, PCF AAS submodel, battery data models, MES; ERP. 
+Data platforms and data spaces
+Piveau, DCAT-AP/JRC, ML/DCAT-AP, Keycloak, Docker, VM deployment, Piveau Harvester, dataset publishing, metadata catalogues, Catena-X and Manufacturing-X concepts, EDC connectors.
+Time-series and data engineering
+InfluxDB, MQTT, Telegraf, tags, event messages, move-in/move-out extraction, productId/stationName/jobName tracking, Xetics triggers, MSB, sensor integration, data annotation.
+PCF / LCA
+OpenLCA, Umberto, KNIME, LCI/LCIA, Product Carbon Footprint, dynamic PCF, battery cell formats, scrap and process-flow analysis, CBAM-oriented PCF concepts.
+Visualization and reporting
+Power BI, Grafana, InfluxDB dashboards, custom dashboards, charts, Sankey diagrams, report writing, survey analysis, paper/presentation support.
+
+4. Detailed Fraunhofer project portfolio
+Use these entries as detailed source material. For an actual resume, compress each project into one or two selected bullets. For Git, anonymize any confidential data and include only public screenshots, diagrams, and links.
+4.1. DigiBattPro 4.0 - BMBF battery-production digitalization use cases
+Field
+Details
+Project / context
+Fraunhofer IPA | DigiBattPro 4.0 | BMBF project | Battery production, digital twins, dynamic PCF, continuous mixing, digital battery passport
+Objective
+Pitch and implement DigiBattPro use cases that connect battery production data, digital twin methods, AAS submodels, data-space concepts, and PCF automation.
+My role
+Use-case contributor and software/research developer responsible for technical concepts, backend/frontend implementation, PCF/AAS integration, data pipeline thinking, and use-case documentation.
+
+Public / project links:
+DigiBattPro 4.0 public project page: https://www.ipa.fraunhofer.de/en/reference_projects/digibattpro.html
+Detailed work performed
+Worked on DigiBattPro UC 2.7.5 for dynamic PCF in battery cell production.
+Implemented an emulator-based setup, AAS submodel concepts for PCF, and FA3ST integration to connect PCF outputs with a digital-twin architecture.
+Developed backend and frontend components to collect data from energy sensors in the clean-room production step and automate data collection for PCF calculation.
+Connected dynamic production data with PCF calculation logic so that production-related input data can be used more consistently in the environmental assessment workflow.
+Worked on DigiBattPro UC 2.5.11 II (Sprint 6) for continuous mixing / Kontinuierliches Mischen and integration of Xetics-based process triggers.
+Supported sensor integration at a partner-side battery mixing machine and structured data collection into a database for later dashboarding, analytics, and model use.
+Installed or configured the DC Connector, MSB, Xetics, and Grafana on a NUC to implement a connected data acquisition setup.
+Designed the logic where Xetics initiates process- and product-specific tests, MSB transmits start/end timestamps as well as test name and number to the DC Connector, and subsequently recorded measurement data is assigned to the correct test name and number.
+Contributed to the Digital Battery Passport use case through joint working-group activities, data-model development, IDTA submodel template considerations for battery data, overall architecture thinking, and data integration with the FA3ST service.
+Contributed to the Digital Battery Passport use case within the DigiBattPro 4.0 project through joint working-group activities, data-model development, IDTA submodel-template considerations for battery-related data, architecture design, and data integration with the FA³ST Service.
+Developed a Digital Battery Passport / Battery Product Passport MVP for battery cells to showcase product-passport functionality at Fraunhofer IPA.
+Designed the MVP to represent both static and dynamic battery lifecycle information, including battery master data, production-related metadata, process information, quality-relevant parameters, and Product Carbon Footprint data.
+Extended the passport concept beyond static product documentation by integrating production data and PCF data, enabling the passport to reflect the digital lifecycle of the battery from manufacturing to later sustainability and traceability use cases.
+Developed the concept for a searchable battery database containing all produced battery cells or battery products in the demonstrator environment, allowing users to search, retrieve, and inspect passport information for individual batteries.
+Structured the passport data model to combine static data, such as product identifiers, material and cell information, and manufacturing metadata, with dynamic data, such as process parameters, sensor values, energy data, PCF results, and lifecycle-related updates.
+Worked on the overall system architecture for connecting the Digital Battery Passport with AAS-based digital-twin components, FA³ST Service, submodel structures, and backend data services.
+Supported the integration of battery production, traceability, and sustainability data into a standardized digital representation based on Asset Administration Shell principles.
+Implemented the MVP as a demonstrator-oriented solution to show how battery-specific data, production data, and PCF information can be made available in a structured, searchable, and reusable format.
+Contributed to the development of a traceability-oriented data structure that links battery products with related production steps, process data, PCF calculation results, and lifecycle documentation.
+Designed the passport approach to support future extensions for battery lifecycle management, sustainability reporting, data-space integration, and regulatory or customer-specific product information exchange.
+Collaborated on aligning the Battery Passport concept with broader DigiBattPro 4.0 goals, including digitalized battery production, consistent traceability, process transparency, and data-driven quality improvement.
+Main outputs / deliverables
+Dynamic PCF use-case architecture and implementation notes.
+Backend/frontend concepts for clean-room energy-sensor data collection and PCF automation.
+Continuous mixing data pipeline with Xetics/MSB/DC Connector/Grafana components.
+Digital Battery Passport data model and architecture inputs, including FA3ST data integration concepts.
+Sprint/use-case material for project communication and later resume/Git portfolio use.
+Tools, standards and methods
+Python, Flask, frontend frameworks, AAS, FA3ST/FAAAST, PCF AAS submodel, energy sensor data, emulator data, Xetics, MSB, DC Connector, NUC, Grafana, InfluxDB, MQTT, battery production, digital twin, data spaces, IDTA battery/passport concepts.
+Resume-ready bullet options
+Implemented DigiBattPro use-case components for dynamic PCF in battery cell production by connecting emulator data, PCF AAS submodels, FA3ST integration, and backend/frontend data collection workflows.
+Built a continuous-mixing data acquisition concept using Xetics triggers, MSB, DC Connector, Grafana, NUC-based deployment, and database integration to assign measurement data to process-specific tests.
+Contributed to a Digital Battery Passport architecture by supporting data-model development, IDTA submodel template considerations, and FA3ST-based data integration.
+Git / portfolio description
+Create a Git section called digibattpro-dynamic-pcf-and-conmix with anonymized diagrams for the clean-room energy-data flow, the Xetics/MSB/DC Connector event flow, and the Digital Battery Passport data model. Include only public project links and generic sample data.
+
+4.2. KI Data Platform / KI-Allianz Baden-Wuerttemberg - AAS, Piveau and DCAT-AP workflows
+Field
+Details
+Project / context
+Fraunhofer IPA | KI-Allianz Baden-Wuerttemberg | AI data platform for production | Data spaces, AAS, metadata catalogues
+Objective
+Develop tools and concepts that give manufacturing companies secure and structured access to production data, using AAS-based data-source connection, DCAT-AP metadata, Piveau catalogues, and data-space concepts.
+My role
+Developer and requirements contributor working on data-format analysis, use-case development, AAS-to-DCAT conversion, Piveau publication workflows, survey/report support, and AAS harvester concepts.
+
+Public / project links:
+KI-Allianz Baden-Wuerttemberg: https://ki-allianz.de/en/
+KI Data Platform project page: https://ki-allianz.de/en/projects/ki-datenplattform/
+Detailed work performed
+Worked on the KI Data Platform context for production data, where tools and technologies connect industrial data sources and support use of existing data rooms in line with Manufacturing-X concepts.
+Reviewed and demonstrated the use of DCAT-AP extensions, including machine-learning-oriented DCAT-AP concepts and the DCAT-AP JRC extension, in the context of a battery-production use case.
+Supported production-sector use-case development for data spaces involving battery production, AAS-based data models, metadata publication, and data discoverability.
+Conducted and led survey work and analysis related to data sharing practices and challenges in manufacturing sector.
+Built an AAS-to-DCAT/Piveau harvester workflow that can harvest metadata from AAS stored in a FA3ST/FAAAST AAS registry.
+Implemented a Piveau Harvester concept that queries the AAS registry, reads AAS descriptors/submodel descriptors, maps them to DCAT-AP/DCAT-AP JRC-compatible fields, and publishes metadata into Piveau.
+Supported platform deployment/customization topics around Piveau, including API-based dataset publication, catalogue-side validation, Keycloak/customization discussions, and Git-ready documentation.
+The ministry of economics was interested in a demonstration of the AAS to data platform upload in a use case, which is actually relevant and useful for industry. Therefore, our demonstrator consisting of a FA³ST server and the AAS2DCAT tool applied to the AAS data provided by the SME "NuCOS", which is our testing partner.
+Main outputs / deliverables
+AAS-to-DCAT metadata mapping workflow and harvester concept.
+Piveau publication scripts/API workflows for AAS-mapped synthetic datasets.
+Use-case descriptions for production-sector data-space scenarios.
+Survey/report inputs on manufacturing data sharing and data-space adoption barriers.
+Documentation of metadata fields, catalogue behavior, and technical endpoints.
+Tools, standards and methods
+Piveau, Piveau Harvester, DCAT-AP, DCAT-AP JRC, ML/DCAT-AP, AAS registry, FA3ST/FAAAST, Python, REST APIs, JSON/JSON-LD, RDF-style metadata concepts, Docker, Keycloak, data-space concepts, Manufacturing-X concepts, battery production use cases.
+Resume-ready bullet options
+Implemented an AAS-to-DCAT/Piveau workflow that harvests AAS registry metadata from FA3ST and maps it to DCAT-AP/JRC-compatible dataset descriptions for data-space-ready catalogues.
+Reviewed and applied DCAT-AP, DCAT-AP JRC, and ML metadata extensions in battery-production data use cases to improve dataset discoverability and reusability.
+Supported KI Data Platform requirements engineering, Piveau deployment/customization, and survey/report work for manufacturing data sharing.
+Git / portfolio description
+Create a repository section called aas-to-dcat-piveau-harvester. Include architecture: FA3ST AAS Registry -> Harvester -> DCAT-AP/JRC mapping -> Piveau publication. Add sample metadata JSON, mapping tables, API request examples, and a confidentiality note.
+
+4.3. H2Giga / FRHY / H2GO - AAS wrapper and time-series abstraction layer
+Field
+Details
+Project / context
+Fraunhofer IPA | H2Giga / FRHY / H2GO | AAS wrapper, emulator data, InfluxDB, BaSyx time-series submodels
+Objective
+Automate the collection of time-series data from emulator/platform sources and transform selected machine/event data into standardized IDTA time-series AAS submodels.
+My role
+Backend/AAS developer responsible for designing a generic AAS abstraction layer, connecting InfluxDB with AAS submodel generation, and integrating DB-to-AAS workflows using BaSyx and AAS repository concepts.
+
+Public / project links:
+Fraunhofer IPA FRHY project page: https://www.ipa.fraunhofer.de/de/referenzprojekte/FRHY.html
+H2Giga lead project page: https://www.wasserstoff-leitprojekte.de/leitprojekte/h2giga
+Detailed work performed
+Built an AAS wrapper to connect emulator-generated H2Giga/FRHY platform data with a database and AAS-compatible representation.
+Automated time-series data collection from emulator sources based on Xetics triggers such as move-in and move-out events.
+Generated AAS time-series submodels from database records using IDTA Time Series Submodel concepts and BaSyx integration.
+Integrated database-to-AAS abstraction logic so that raw time-series data can be converted into queryable, standardized submodels.
+Designed the AAS Abstraction Layer as a smart translator between raw time-series data and standardized AAS submodels.
+Addressed the problem that raw machine/service data appears in different formats, protocols, and update cycles and is difficult for dashboards or AAS GUIs to query without a common model.
+Specified backend service endpoints for listing all generated submodels and fetching a specific submodel by identifier.
+Defined configuration requirements for database credentials, bucket/measurement mappings, metadata, custom names, descriptions, and sensor types such as voltage or temperature.
+Evaluated time-series grouping options such as daily time windows or InfluxDB labels/tags to define start and end boundaries for distinct time-series submodels.
+Kept the architecture generic so additional databases, sensors, and future projects can be connected without hardcoding one specific database structure.
+Main outputs / deliverables
+AAS abstraction-layer architecture and backend service concept.
+Time-series submodel generation approach based on InfluxDB measurements and metadata mappings.
+GET endpoint concepts for listing all submodels and retrieving specific submodels.
+Configuration concept for multiple databases, buckets, measurements, descriptions, sensor types, and dynamic extension.
+Architecture diagram and implementation notes for future reuse.
+Tools, standards and methods
+Python, InfluxDB, BaSyx Python SDK, AAS, IDTA Time Series Submodel, Submodel Repository API, Submodel Registry, FA3ST/BaSyx concepts, Xetics triggers, event detection, configuration files, REST endpoints, JSON templates, dashboards/AAS GUIs.
+Resume-ready bullet options
+Designed an AAS abstraction layer that converts InfluxDB time-series and event data into standardized IDTA Time Series Submodels using BaSyx and Submodel Repository APIs.
+Automated event-based data collection from emulator/Xetics move-in and move-out triggers to generate queryable AAS time-series submodels.
+Specified a configurable backend architecture for dynamically onboarding databases, measurements, sensor metadata, and future industrial data sources.
+Git / portfolio description
+Create a repository section called aas-timeseries-abstraction-layer. Include the architecture diagram, sample config.yaml, endpoints such as GET /submodels and GET /submodels/{id}, anonymized InfluxDB examples, and generated AAS submodel JSON samples.
+
+
+Figure - AAS Abstraction Layer Implementation Architecture
+
+
+4.4. CCIT / Manufacturing-X PCF - Cross-border PCF and data-space demonstrator
+Field
+Details
+Project / context
+Fraunhofer IPA | CCIT / Manufacturing-X-related PCF work | Cross-border PCF exchange, digital twins, data spaces, automotive production
+Objective
+Develop a PCF calculation and exchange concept that supports dynamic product carbon footprint calculation, sustainability data exchange, and sovereign data-space communication across organizational and country boundaries.
+My role
+PCF and architecture contributor responsible for PCF concept development, overall architecture thinking, data pipeline design, PCF service-tool architecture, and integration of Eclipse Dataspace Connector/EDC components on both participating sides.
+
+Detailed work performed
+Worked on a PCF calculator and data-space demonstrator for a manufacturing use case involving an automotive supplier context and cross-border sustainability data exchange.
+Analyzed production processes together with the client/partner context to understand how process data, material inputs, energy data, and emissions-related information can feed a PCF workflow.
+Contributed to CBAM-oriented / CBAM-compliance-aware PCF calculation concepts and service offerings, with a note that final compliance claims should be verified by legal/compliance experts.
+Developed the PCF calculation service-tool architecture, including data integration, PCF model configuration, calculation engine, dashboard, scenario analytics, and data-space connector concepts.
+Designed a data pipeline that connects shop-floor data, additional input data, PCF/LCA calculation logic, digital twin representations, storage/history layers, and data-space exchange mechanisms.
+Integrated or supported integration of Eclipse Dataspace Connector / EDC connectors at both party ends to enable sovereign PCF and sustainability-data exchange.
+Linked PCF outputs with digital twin/AAS approaches and data-space technologies such as Catena-X/Manufacturing-X-oriented concepts.
+First author to the CCPT paper/presentation titled "Sovereign Data Spaces and Interoperable Digital Twins for Automated Product Carbon Footprint Integration in Circular Production Systems" and presented the work in the conference context.
+Main outputs / deliverables
+Reference architecture for dynamic PCF and data-space-based PCF exchange.
+PCF calculation service architecture with model configurator, dashboard, scenario analytics, data preprocessor, model executor, PCF contextualizer, file/REST/MQTT interfaces, and data-space connector.
+Data-pipeline and interoperability concept connecting production data, PCF calculation, digital twin standards, and EDC/data-space exchange.
+Conference paper/presentation content and demonstrator story for circular production systems.
+Tools, standards and methods
+PCF, LCA, OpenLCA/other LCA interfaces, data spaces, Eclipse Dataspace Connector / EDC, Catena-X and Manufacturing-X concepts, AAS/digital twins, REST, MQTT, data preprocessing, model execution, PCF contextualization, dashboard architecture, CBAM-oriented PCF concepts, cross-border data exchange.
+Resume-ready bullet options
+Developed a cross-border PCF data-space architecture connecting production data, PCF calculation services, interoperable digital twins, and EDC-based sovereign data exchange.
+Designed PCF data pipelines and service-tool components for model configuration, calculation, contextualization, dashboarding, scenario analytics, and sustainability-data exchange.
+Contributed to and presented conference work on sovereign data spaces and interoperable digital twins for automated PCF integration in circular production systems.
+4.5. ExELPro - AI-supported Experiment Management for battery cell production
+Field
+Details
+Project / context
+Fraunhofer IPA | ExELPro | Battery cell production | Experiment Management System (EMS), SmartUnifier, InfluxDB, ML-ready data
+Objective
+Develop an intelligent Experiment Management System for efficient planning, execution, evaluation, and optimization of experiments across complex battery cell production processes.
+My role
+Project coordinator and data acquisition / data pipeline contributor responsible for mixing, coating, and cell assembly data acquisition, SmartUnifier connectivity, EMS/InfluxDB pipeline design, and conversion of production data into ML-ready training data for parameter optimization.
+
+Public / project links:
+Fraunhofer IPA ExELPro project page: https://www.ipa.fraunhofer.de/de/referenzprojekte/ki-gestuetztes-experimentmanagement-fuer-die-batteriezellproduktion.html
+Detailed work performed
+Coordinated project activities and translated production-stage requirements into a technical data acquisition and experiment-management pipeline.
+Worked on data acquisition for the mixing, coating, and cell assembly stages of battery cell production.
+Built the data pipeline connecting SmartUnifier instances, machine connectivity, Edge-PC, MQTT/OPC UA communication, Data Connector/Telegraf, InfluxDB v2, dashboards, EMS, cloud/ML services, and optimized parameter feedback.
+Prepared the data flow that converts raw process data into ML-model-ready training data for model training, inference, and process-parameter optimization.
+Supported integration of OPC UA and non-OPC UA systems through SmartUnifier-based networking of production facilities.
+Linked experiment management with real-time process analysis so inline process data can be captured, evaluated, and used for faster decisions.
+Connected EMS with AI-supported process adjustment, moving from a pure analysis tool toward an intelligent assistance system for production control.
+Supported AI use cases such as predicting viscosity from machine parameters, inverting models to derive process settings from target viscosity, and optimizing process parameters to reduce iterative test series.
+Structured requirements around AAS-based standardized provision and use of production/process information.
+Main outputs / deliverables
+Data acquisition architecture for battery production stages.
+ML-ready training-data pipeline from SmartUnifier/machine data to InfluxDB/EMS/ML services.
+Project coordination inputs, requirements, and technical workflow documentation.
+Experiment-management and optimization story connecting production data, EMS, ML services, and optimized recipe parameters.
+Architecture diagram for data acquisition and ML parameter optimization.
+Tools, standards and methods
+SmartUnifier, EMS, InfluxDB v2, MQTT, OPC UA, Telegraf, Edge-PC, VFK Cloud, ML model service, data connector, Grafana/InfluxDB dashboards, Python/data pipelines, battery mixing, coating, assembly, formation, AAS, experiment management, model training/inference, parameter optimization.
+Resume-ready bullet options
+Coordinated ExELPro workstreams and developed data acquisition pipelines for mixing, coating, and cell assembly stages using SmartUnifier, OPC UA/MQTT, InfluxDB, EMS, and ML-ready data preparation.
+Designed an EMS-to-ML pipeline that converts production data into training/inference-ready datasets and feeds optimized process parameters back to experiment management workflows.
+Integrated experiment management, real-time process analysis, AAS concepts, and AI-based parameter optimization for data-driven battery cell production.
+Git / portfolio description
+Create a Git/portfolio entry called exelpro-ems-data-pipeline. Include the uploaded pipeline diagram, a sanitized system overview, sample data schema, ETL steps, and notes on how machine data becomes ML-ready training data.
+
+
+Figure - ExELPro / EMS Data and ML Pipeline
+
+
+4.6. FFB Lab Hub / Digital Twin Laboratory - Next.js application and requirements
+Field
+Details
+Project / context
+Fraunhofer FFB / Fraunhofer IPA collaboration context | FFB Lab Hub | Digital Twin Laboratory | Next.js application
+Objective
+Develop a digital twin / lab hub concept that serves as a central entry point for laboratory services, connecting room overviews, device booking, LIMS, ELN, dashboards, SOPs, safety information, and device details.
+My role
+Requirements engineer and application developer responsible for user requirements, technical requirements, architecture thinking, and development of a Next.js-based lab hub / digital-twin application.
+
+Public / project links:
+Fraunhofer FFB website: https://www.ffb.fraunhofer.de/
+Detailed work performed
+Worked on user requirements and technical requirements for a FFB Lab Hub / Digital Twin Laboratory application.
+Developed or planned a Next.js application that acts as the central entry point for laboratory services and connected systems.
+Structured the application around modules such as room overview, laboratory room detail pages, device booking, device details, linked systems, dashboards, SOPs, safety information, LIMS and ELN access.
+Used the concept that the digital twin does not store all measurement data itself; instead, it links, coordinates, and contextualizes connected systems such as LIMS, dashboards, expert systems, and knowledge/SOP repositories.
+Designed user flows for quickly checking rooms, devices, status, availability, maintenance/calibration information, booking options, and links to measurement/QS data.
+Translated lab operations needs into technical modules, API integration points, and user interface concepts for room/device management.
+Considered future features such as capacity management, calendar views, automatic calibration checks before booking, waitlists, recurring bookings, dashboard links, and device-specific SOP/training materials.
+Main outputs / deliverables
+User and technical requirements for a lab hub / digital twin laboratory.
+Application architecture for linking room overview, device booking, LIMS, ELN, dashboards, SOPs and device details.
+Next.js application foundation and module structure.
+Portfolio-ready explanation of the digital twin as a coordination/linking layer rather than a duplicate measurement-data store.
+Tools, standards and methods
+Next.js, React, TypeScript/JavaScript, UI/UX design, requirements engineering, digital twin concepts, LIMS, ELN, dashboards, SOPs, safety information, device booking, room overview, API integration, laboratory operations, knowledge management.
+Resume-ready bullet options
+Developed requirements and application concepts for a Next.js-based FFB Lab Hub digital twin connecting room overview, device booking, LIMS, ELN, dashboards, SOPs, safety data, and device details.
+Designed a lab digital twin architecture that links and coordinates connected systems instead of duplicating all measurement data, improving accessibility to laboratory services and operational information.
+Translated laboratory user needs into UI modules, technical requirements, and integration points for device status, booking, calibration, dashboards, and knowledge resources.
+Git / portfolio description
+Create a repository section called ffb-lab-hub-digital-twin. Include sanitized wireframes, Next.js project structure, feature modules, API placeholder definitions, and a clear note that measurement data stays in connected systems and is only linked/contextualized by the hub.
+
+4.7. AAS2DCAT / AAS-to-metadata publishing tool
+Field
+Details
+Project / context
+Fraunhofer IPA | AAS2DCAT | Industrial metadata, AAS, Piveau, DCAT-AP/JRC
+Objective
+Create a toolchain for querying Asset Administration Shell data, mapping AAS metadata to DCAT-AP/JRC-compatible dataset descriptions, and publishing metadata to Piveau.
+My role
+Developer responsible for AAS querying, metadata mapping, GUI/workflow design, API integration, and Git-ready documentation.
+
+Detailed work performed
+Designed a workflow to query AAS models from BaSyx/FA3ST service repositories and transform returned AAS metadata into DCAT-AP-compatible structures.
+Built GUI/application concepts using PyQt and web technologies to support AAS querying, data configuration, tag management, dataset preview, and publishing actions.
+Implemented mapping logic between AAS concepts and DCAT-AP fields, including dataset title, description, publisher/contact, distribution metadata, identifiers, keywords, and access endpoints.
+Integrated the publishing workflow with the Piveau API to upload AAS-mapped synthetic datasets and validate catalogue-side dataset creation.
+Created or extended data configuration tables adjacent to AAS query outputs so users can select metadata fields and configure dataset descriptions before publication.
+Prepared architecture explanations, API flow descriptions, UI notes, and tool functionality text for Git/portfolio use.
+Main outputs / deliverables
+AAS-to-DCAT metadata mapping and publication workflow.
+GUI/frontend concepts for AAS query output and data configuration.
+Piveau publication scripts/API flow and synthetic dataset upload validation.
+Git/README material for public or internal documentation.
+Tools, standards and methods
+Python, PyQt, Vue.js, Flask, REST APIs, BaSyx, FA3ST/FAAAST, AAS, DCAT-AP, DCAT-AP JRC, Piveau API, Docker, JSON, metadata modelling, data catalogues.
+Resume-ready bullet options
+Built an AAS-to-DCAT metadata publishing workflow that transforms Asset Administration Shell data into DCAT-AP-compatible dataset descriptions and publishes them to Piveau.
+Developed PyQt and web-based tooling for querying AAS repositories, configuring dataset metadata, tagging data, and supporting catalogue publication workflows.
+Implemented mapping logic between AAS models and data-space metadata standards to improve discoverability and interoperability of manufacturing datasets.
+Git / portfolio description
+AAS2DCAT is a tool that connects an AAS service repository with a metadata catalogue. It queries AAS models, converts selected AAS metadata into DCAT-AP-compatible dataset descriptions, and publishes the resulting datasets to Piveau.
+Before public Git or resume use Confirm whether the public project name should be AAS2DCAT, AAS-to-DCAT, AAS Harvester, or Piveau Harvester. Remove all internal platform URLs and tokens.
+
+4.8. Battery Product Passport - data model, IDTA submodels and FA3ST integration
+Field
+Details
+Project / context
+Fraunhofer IPA | Battery Product Passport | Joint working group | Battery data model and data integration
+Objective
+Support the development of a Digital Battery Passport concept that structures battery-related data with interoperable data models, IDTA submodel templates, and AAS/FA3ST integration.
+My role
+Contributor to data model development, architecture discussions, IDTA submodel template mapping, and FA3ST service data integration for the Digital Battery Passport use case.
+
+Detailed work performed
+Participated in a joint working group for the Battery Passport / Digital Battery Passport use case.
+Supported Aufbau und Entwicklung des Datenmodells (setup and development of the data model) for battery-passport-related information.
+Worked with IDTA submodel template ideas for battery data templates and their integration into AAS-based representations.
+Contributed to the overall architecture of the Digital Battery Passport, including data-source, data-model, AAS, and data-consumer perspectives.
+Supported data integration with the FA3ST service to make structured battery data accessible through AAS-compatible services.
+Connected Battery Product Passport work with broader DigiBattPro, dynamic PCF, and data-space use cases.
+Main outputs / deliverables
+Battery-passport data model inputs.
+IDTA submodel template mapping ideas for battery data.
+Digital Battery Passport overall architecture notes.
+FA3ST-based data integration approach.
+Tools, standards and methods
+Battery Product Passport, Digital Battery Passport, AAS, FA3ST/FAAAST, IDTA submodel templates, battery data models, data integration, data-space concepts, PCF/sustainability data, architecture design.
+Resume-ready bullet options
+Contributed to a Digital Battery Passport architecture by supporting battery data-model development, IDTA submodel template mapping, and FA3ST-based data integration.
+Structured battery-passport data integration concepts connecting AAS services, sustainability/PCF data, and data-space-ready architectures.
+Git / portfolio description
+Create a private or sanitized portfolio section called digital-battery-passport-aas. Include high-level data model diagrams, anonymized AAS submodel examples, and a note on FA3ST integration.
+Before public Git or resume use Battery-passport content can be sensitive. Confirm whether data-model screenshots, IDTA template adaptations, and project-specific architecture diagrams can be published.
+
+4.9. Product Carbon Footprint demonstrator and OpenLCA backend APIs
+Field
+Details
+Project / context
+Fraunhofer IPA | PCF demonstrator | LCI/LCIA APIs, frontend visualization, battery/circular production
+Objective
+Expose Product Carbon Footprint calculation outputs from OpenLCA and related scripts to user-facing APIs and visualizations for interpreting process-level environmental impacts.
+My role
+Backend/frontend developer and PCF workflow contributor responsible for API route design, data output structures, visualization concepts, and PCF AAS submodel integration ideas.
+
+Detailed work performed
+Extended backend API concepts to expose multiple outputs from openlca.py, including inventory data, impact results, process input/output flows, and scrap per process data.
+Developed routes and data structures to serve LCI and LCIA information to frontend components for PCF interpretation and reporting.
+Worked on extracting process-level input/output flow data from OpenLCA processes for downstream analysis and visualization.
+Designed frontend visualization concepts for PCF results, including LCI views, Sankey diagrams for process/material flows, pie charts for scrap by material, and bar charts for scrap per production step.
+Integrated PCF AAS submodel ideas to connect carbon-footprint calculation outputs with standardized digital asset representations.
+Supported end-to-end demonstrator thinking from model calculation and API exposure to data transformation, visualization, and reusable result reporting.
+Main outputs / deliverables
+Backend API routes for inventory, impact, process-flow and scrap outputs.
+Frontend visualization requirements and sample data structures.
+PCF AAS submodel integration concept.
+Reusable demonstrator explanation for papers, reports and presentations.
+Tools, standards and methods
+Python, Flask, OpenLCA IPC concepts, REST APIs, Vue/React, Sankey diagrams, chart visualizations, LCI, LCIA, PCF AAS submodel, JSON data models, battery/circular production PCF.
+Resume-ready bullet options
+Built backend APIs to expose OpenLCA-based LCI/LCIA, process-flow, and scrap-analysis outputs for a Product Carbon Footprint demonstrator.
+Developed frontend visualization concepts for PCF results, including Sankey diagrams, scrap-by-material charts, and scrap-per-process analysis.
+Linked PCF calculation outputs with AAS submodel concepts to support standardized representation of product carbon-footprint information.
+Git / portfolio description
+Create a repository section called pcf-demonstrator-openlca-api with endpoint documentation, anonymized JSON examples, and dashboard screenshots using synthetic data.
+
+4.10. Automated PCF workflow for battery cells - LCI, KNIME, Umberto and Power BI
+Field
+Details
+Project / context
+Fraunhofer IPA | Battery cell PCF | LCI automation | Research paper/workflow
+Objective
+Develop an automated workflow for Product Carbon Footprint calculation of battery cells using LCI data extraction, processing, modelling, and visualization.
+My role
+Research and software contributor responsible for parameterized LCI structuring, workflow integration, data-processing concepts, and visualization/reporting material.
+
+Detailed work performed
+Developed a parameterized concept/tool for creating life cycle inventories for different battery cell formats such as cylindrical and coin cells and for different cell chemistries.
+Worked on automated extraction and transformation of LCI data for battery-production process steps and material flows.
+Linked LCI data-processing workflows with Umberto modelling to demonstrate automated Product Carbon Footprint calculations.
+Used KNIME-based workflows for structured data processing, cleaning, transformation, and preparation of PCF-relevant input data.
+Prepared Power BI visualization concepts to communicate PCF results and support interpretation of product-level and process-level contributions.
+Contributed to research paper material describing automated PCF calculation of battery cells, including LCI data extraction, KNIME processing, Umberto modelling, and Power BI visualization.
+Main outputs / deliverables
+Parameterized battery-cell LCI concept.
+Workflow description linking LCI extraction, KNIME processing, Umberto modelling and Power BI visualization.
+Research-paper input and demonstrator-ready explanation.
+Tools, standards and methods
+LCI, PCF, battery cell production, KNIME, Umberto, Power BI, Python, data processing, process modelling, battery cell formats, battery chemistry parameters, LCA/LCIA concepts.
+Resume-ready bullet options
+Developed a parameterized LCI workflow for battery-cell Product Carbon Footprint calculation across different cell formats and chemistries.
+Integrated LCI data extraction, KNIME-based processing, Umberto modelling, and Power BI visualization into an automated PCF workflow.
+Contributed research documentation on automated PCF calculation for battery cells, supporting reproducible sustainability assessment.
+Git / portfolio description
+Create a repository section called automated-battery-cell-pcf-workflow. Include synthetic LCI tables, workflow diagrams, anonymized data transformations, and mock Power BI outputs.
+Before public Git or resume use Confirm exact paper title, publication status, and whether Umberto screenshots/data can be shared.
+
+4.11. DigiBattPro 4.0 - Datenraumgestuetzte Lieferterminoptimierung
+Field
+Details
+Project / context
+Fraunhofer IPA | DigiBattPro 4.0 Sprint 8 | UC 2.2.03 | Catena-X, material-flow simulation, SAP/data-space integration
+Objective
+Improve supply-chain delivery date optimization through data-space concepts, Catena-X components, material-flow simulation, and enterprise system integration.
+My role
+Use-case contributor supporting requirements, technical concepts, workflow documentation, and integration thinking for data-space-supported delivery-date optimization.
+
+Detailed work performed
+Worked on UC 2.2.03 for data-space-supported delivery-date optimization within DigiBattPro 4.0 Sprint 8.
+Explored how Catena-X-aligned components can exchange supply-chain and material-flow information across organizational boundaries.
+Supported conceptual integration of SAP, simulation models, and data-space components to improve delivery-date planning and transparency.
+Structured data flows between enterprise systems, simulation components, and data-space interfaces for supply-chain optimization.
+Prepared use-case descriptions, technical concepts, and implementation notes for sprint planning and project communication.
+Main outputs / deliverables
+Use-case documentation and sprint input.
+Integration/data-flow concepts connecting SAP, simulation and data spaces.
+Resume/Git-ready explanation of delivery-date optimization through data spaces.
+Tools, standards and methods
+Catena-X concepts, data spaces, SAP integration concepts, material-flow simulation, supply-chain optimization, use-case modelling, REST/API architecture, requirements engineering.
+Resume-ready bullet options
+Supported a data-space-based delivery-date optimization use case by connecting Catena-X concepts, material-flow simulation, and SAP integration requirements.
+Structured data flows and technical requirements for cross-company supply-chain transparency and delivery-date planning.
+Git / portfolio description
+Create a private/sanitized use-case page called dataspace-delivery-date-optimization. Include generic process flow and data-space integration concepts without partner names.
+
+4.12. Manufacturing data-sharing survey and Fraunhofer study report
+Field
+Details
+Project / context
+Fraunhofer IPA / KI-Allianz Baden-Wuerttemberg | Survey analysis and report writing
+Objective
+Analyze data-sharing practices, barriers, and requirements in the manufacturing industry and translate results into report-ready findings for data-space and KI data platform work.
+My role
+Data analyst and report contributor responsible for response review, analysis plan, descriptive/statistical analysis concepts, visual summaries, and methodology/report text.
+
+Detailed work performed
+Worked with survey results consisting of 51 full responses and 86 incomplete responses collected between 29 April 2024 and 30 June 2024.
+Analyzed responses across 17 multiple-choice and Likert-scale questions about manufacturing-industry data sharing, challenges, and practices.
+Prepared statistical analysis concepts including t-tests, F-tests, chi-square tests, and ANOVA options depending on hypotheses and variable types.
+Supported writing of a Fraunhofer study report, including methodology description, survey design, distribution strategy, response structure, and interpretation of findings.
+Connected survey findings with broader project work around metadata platforms, interoperability, data availability, trust, data-space adoption, and barriers to industrial data sharing.
+Main outputs / deliverables
+Cleaned/structured survey analysis material.
+Descriptive statistics and statistical testing plan.
+Report-ready methodology and findings content.
+Requirements insights for data spaces and KI Data Platform topics.
+Tools, standards and methods
+Survey analysis, Limesurvey, Excel/Python/pandas concepts, descriptive statistics, Likert-scale analysis, chi-square, ANOVA, t-test, F-test, report writing, data visualization, methodology documentation.
+Resume-ready bullet options
+Analyzed manufacturing-industry survey data on data-sharing practices using descriptive statistics, Likert-scale evaluation, and hypothesis-testing concepts.
+Contributed to a Fraunhofer study report by preparing methodology, analysis, and findings related to industrial data-space adoption and interoperability barriers.
+Git / portfolio description
+Create a portfolio entry with anonymized survey methodology, synthetic example data, charts, and notebooks only if public release is approved.
+
+
+4.15. ConMix / Battery mixing data exploration
+Field
+Details
+Project / context
+Fraunhofer IPA | Battery mixing stage | Data-source clarification and integration planning
+Objective
+Clarify available data sources for the battery mixing stage and explore how process or image data can be accessed for further analysis, PCF, digital twin, or experiment-management workflows.
+My role
+Technical discussion participant and data-source analyst supporting contact mapping, retrieval possibilities, data-type exploration, and integration considerations.
+
+Detailed work performed
+Participated in discussions around battery mixing-stage data sources, data retrieval, and production-step contacts.
+Explored whether image data from different battery production stages can be retrieved and used for analysis or documentation.
+Supported technical clarification of available data types, responsible contacts, and potential data integration routes.
+Connected mixing-stage data availability with broader ExELPro, DigiBattPro continuous mixing, PCF, and data-platform needs.
+Main outputs / deliverables
+Meeting notes and data-source clarification.
+Contact/data retrieval mapping.
+Early integration considerations for production-stage data.
+Tools, standards and methods
+Battery production process understanding, data-source analysis, requirements clarification, image-data exploration, stakeholder communication, production data integration.
+Resume-ready bullet options
+Supported battery mixing-stage data-source analysis by clarifying available process/image data, retrieval routes, and contacts for production-step data access.
+Git / portfolio description
+Keep ConMix as a private note until exact public scope is confirmed. Public material can use a generic battery mixing data-source mapping description.
+
+5. Previous professional experience
+These entries are reconstructed from the previous resume content and expanded slightly into reusable work-experience text. Keep exact dates and company spellings consistent with official records.
+5.1. ARENA 2036 & SPIE - Werkstudent
+Field
+Details
+Project / context
+April 2023 - Dec 2023 / verify exact end date | Stuttgart, Germany | IoT sensor analytics and dashboards
+Objective
+Conduct data analytics for sensors in IoT/industrial applications and create visualization dashboards for monitoring and analysis.
+My role
+Working student responsible for sensor-data analytics, dashboarding, Azure-based data handling, and industrial IoT monitoring support.
+
+Detailed work performed
+Conducted data analytics for sensors in the context of IoT applications.
+Used Microsoft Azure for data collection and processing workflows.
+Visualized sensor data with Grafana and created interactive, customizable dashboards.
+Worked with MQTT, 5G/IIoT concepts, InfluxDB, and agile collaboration practices.
+Gained practical experience in connecting data collection, processing, storage, and visualization layers for industrial IoT systems.
+Tools, standards and methods
+Grafana, MQTT, 5G, IIoT, Azure, InfluxDB, Agile, sensor data analytics, dashboards.
+Resume-ready bullet options
+Analyzed IoT sensor data and built Grafana dashboards for industrial monitoring use cases using Azure, InfluxDB, MQTT, and 5G/IIoT concepts.
+Supported sensor-data collection and processing workflows in an agile industrial IoT environment.
+
+5.2. Robert Bosch Power Tools GmbH - Praktikum
+Field
+Details
+Project / context
+May 2022 - Oct 2022 | Stuttgart, Germany | Embedded software and IoT edge updates
+Objective
+Develop embedded software for IoT edge devices, especially software rollout and over-the-air update functionality.
+My role
+Intern responsible for implementing software rollout/OTA update workflows and standardized edge-to-cloud communication using MQTT and Bosch IoT tooling.
+
+Detailed work performed
+Worked on embedded software development for IoT edge devices.
+Implemented the Software Rollout feature on the device side and cloud-side execution paths using Bosch IoT Suite.
+Implemented software over-the-air edge-to-cloud updates so edge devices could receive updates via Bosch IoT Rollouts.
+Developed a software-updatable feature model using Eclipse Vorto and Hawkbit.
+Defined a standardized communication procedure between edge and cloud using MQTT.
+Worked with Python, Raspberry Pi, Eclipse, Linux, MQTT, and IoT tooling in an embedded/cloud-connected environment.
+Tools, standards and methods
+Python, Raspberry Pi, Eclipse, IoT, MQTT, Linux, Bosch IoT Suite, Bosch IoT Rollouts, Eclipse Vorto, Hawkbit, OTA updates.
+Resume-ready bullet options
+Implemented OTA software rollout functionality for IoT edge devices using Bosch IoT Suite, Bosch IoT Rollouts, Eclipse Vorto, Hawkbit, MQTT, Raspberry Pi, and Linux.
+Defined standardized edge-to-cloud communication workflows for software-updatable IoT devices.
+5.3. Dispendix GmbH - Werkstudent
+Field
+Details
+Project / context
+Aug 2021 - Mar 2022 | Ruppmannstrasse, Stuttgart | Firmware and PCB development
+Objective
+Contribute to laboratory automation and liquid-handling technology through firmware development and electronic design/testing tasks.
+My role
+Working student responsible for STM32 firmware support and PCB design/testing activities using electronics design tools.
+
+Detailed work performed
+Contributed to cutting-edge technology and products in laboratory automation and liquid handling.
+Worked on firmware development for STM32 microcontrollers.
+Designed and tested circuit boards using Altium Designer/Altium 365 and LTspice.
+Used Git and engineering documentation workflows to support hardware/software development.
+Tools, standards and methods
+STM32, C/C++, firmware development, Altium 365, Altium Designer, LTspice, Git, AWS context, PCB design/testing, laboratory automation.
+Resume-ready bullet options
+Developed STM32 firmware and supported PCB design/testing for laboratory automation and liquid-handling products.
+Used Altium 365, LTspice, Git, and embedded engineering workflows for hardware/software development.
+6. Academic and earlier technical projects from previous resume
+Human Detection for Autonomous Mobile Robots in Indoor Logistics based on Deep Learning and Sensor Fusion - Master Thesis
+ARENA2036, Stuttgart | Feb 2023 - 2023/verify final submission month
+Conducted in-depth research on preprocessing LIDAR point cloud data for human leg detection and tracking.
+Adapted U-Net architecture for LIDAR occupancy map images.
+Utilized YOLOv5 on camera data for human/object classification.
+Implemented a multi-sensor fusion approach with LIDAR and camera data for accurate human detection.
+Developed a system to calculate the mass center from occupancy maps, enabling real-time localization of humans.
+Skills / tools: MIRA/ROS, Python, C++, PyTorch, OpenCV, CNN, U-Net, YOLOv5, LIDAR, sensor fusion, 5G, MQTT.
+Resume-ready bullet option
+Developed a deep-learning-based AMR human detection pipeline using LIDAR occupancy maps, U-Net, camera-based YOLOv5 classification, and multi-sensor fusion for real-time localization.
+Dynamic Geofence for Autonomous Mobile Robots in Indoor Logistics
+ARENA2036, Stuttgart | Dec 2021 - May 2022
+Developed a novel approach based on computational geometry to create dynamic geofences for AMRs.
+Created a safety case for AMR operations with geofences as a countermeasure for dynamic risk management.
+Developed a user-friendly web application using Vue.js, Flask, MQTT, and SQLite database for real-time monitoring.
+Implemented a real-time caching system using a thread-safe data structure to solve concurrency issues.
+Skills / tools: Python, JavaScript, SQL, Vue.js, Flask, Git, 5G, IIoT, MQTT, Redis-style caching, AGV/AMR safety.
+Resume-ready bullet option
+Built a dynamic geofencing web application for AMR safety using Vue.js, Flask, MQTT, SQLite, Redis-style caching, and computational geometry.
+Smart Farming using HVAC and IoT
+Universitaet Stuttgart | Apr 2021 - Jul 2021
+Integrated multiple sensors to collect and transmit data to a Raspberry Pi system.
+Used MQTT to enable reliable data transfer between sensors and system components.
+Implemented a PDDL AI planner for smart decision-making and actuator control.
+Developed an interactive web application using Dash for data visualization.
+Skills / tools: Python, HTML, Dash, PDDL, MQTT, IoT, Raspberry Pi, AI planning.
+Resume-ready bullet option
+Developed a smart farming IoT prototype using Raspberry Pi, MQTT, sensor integration, PDDL planning, and Dash-based visualization.
+Development of Electromagnetic Transport Measurement System for Spintronics Application - Bachelor Thesis
+Alliance University | Feb 2019 - Aug 2019
+Designed and fabricated an automated measurement system for spintronics on a wafer sample.
+Fabricated a heterojunction sample (Fe3O4/SiO2/Si) using Pulse Laser Deposition to induce spin properties in the silicon substrate.
+Designed and 3D printed a robotic arm consisting of 11 individual parts and 5 servo motors.
+Developed Arduino UNO code to control motors for precise 360-degree sample-holder rotation in the air gap of an electromagnet.
+Skills / tools: PLD, Spintronics, Arduino, robotic arm, Hall effect sensor, 3D printing, servo motors, measurement systems.
+Resume-ready bullet option
+Designed an automated spintronics measurement system with a 3D-printed robotic arm, Arduino control, PLD sample fabrication, and sensor-based measurement setup.
+Bachelor internships and early projects
+Pricol Engineering Industries Ltd, Grid R&D, university competitions and seminars
+Pricol Engineering Industries Ltd: developed a capacitor-based fuel oil level sensor circuit using a dual monostable multivibrator concept.
+Grid R&D: designed and built an IoT-based heart-rate monitoring system with real-time monitoring and GPS tracking for patients.
+Line Following Robot: developed an autonomous robot capable of tracking a white line on a contrasting surface.
+Wireless Power Transfer project: developed and presented a highly resonant wireless power transfer system for charging low-power devices.
+Poster presentation: presented technical poster on electromagnetic transport measurement for spintronics application at AICAAM.
+Skills / tools: Electronics, IoT, sensors, embedded systems, Arduino, analog circuits, GPS, robotics, wireless power transfer, technical presentation.
+Resume-ready bullet option
+Built early electronics and IoT prototypes including a fuel oil level sensor, heart-rate monitoring system, line-following robot, and wireless power transfer demonstrator.
+7. Resume-ready bullet bank
+This is not a resume. It is a bank of polished bullets. Choose 5-8 bullets depending on the target job and shorten further.
+Fraunhofer IPA - strong general bullets
+Developed digital manufacturing research prototypes connecting Asset Administration Shell (AAS), DCAT/Piveau data catalogues, OpenLCA/Umberto PCF workflows, industrial time-series data, and data-space concepts.
+Implemented DigiBattPro dynamic PCF and continuous-mixing use-case components using emulator data, FA3ST/AAS integration, clean-room energy sensor data, Xetics/MSB/DC Connector workflows, and database/Grafana pipelines.
+Built AAS-to-DCAT/Piveau harvester workflows that map AAS registry metadata from FA3ST to DCAT-AP/JRC-compatible dataset descriptions for data-space-ready catalogues.
+Designed an AAS abstraction layer that converts InfluxDB time-series and event data into standardized IDTA Time Series Submodels using BaSyx and Submodel Repository APIs.
+Developed backend APIs exposing OpenLCA-based LCI/LCIA, process-flow, and scrap-analysis outputs for dynamic Product Carbon Footprint demonstrators.
+Designed cross-border PCF data-space architectures connecting production data, digital twins, PCF calculation services, and EDC-based sovereign data exchange.
+Coordinated ExELPro workstreams and developed SmartUnifier/EMS/InfluxDB data pipelines for ML-ready battery production datasets across mixing, coating, and cell assembly stages.
+Developed requirements and Next.js application concepts for a FFB Lab Hub digital twin connecting room overview, device booking, LIMS, ELN, dashboards, SOPs, safety data, and device details.
+Analyzed manufacturing data-sharing survey results and prepared Fraunhofer study-report inputs using descriptive statistics, Likert-scale evaluation, and hypothesis-testing concepts.
+Prepared technical concepts for Digital Battery Passport data models, IDTA submodel templates, FA3ST integration, dry-room energy/CO2 optimization, and battery production digital twins.
+Earlier experience - strong bullets
+Conducted IoT sensor analytics and developed Grafana dashboards using Azure, MQTT, InfluxDB, and IIoT/5G context at ARENA 2036 & SPIE.
+Implemented OTA update functionality for IoT edge devices using Bosch IoT Suite, Bosch IoT Rollouts, Eclipse Vorto, Hawkbit, MQTT, Raspberry Pi, and Linux at Bosch Power Tools.
+Developed STM32 firmware and designed/tested PCBs using Altium 365 and LTspice for laboratory automation and liquid-handling technology at Dispendix.
+Developed a deep-learning-based AMR human detection pipeline using LIDAR occupancy maps, U-Net, camera-based YOLOv5 classification, and multi-sensor fusion.
+Built a dynamic geofencing web application for AMR safety using Vue.js, Flask, MQTT, SQLite, Redis-style caching, and computational geometry.
+8. Git / portfolio update material
+Use these as README starters. Replace placeholders with repository names, setup instructions, public screenshots, synthetic data, and sanitized architecture diagrams.
+DigiBattPro - Dynamic PCF and ConMix Data Pipeline
+A project portfolio entry describing battery-production use cases for dynamic PCF, clean-room energy data collection, FA3ST/AAS integration, and continuous-mixing data acquisition using Xetics/MSB/DC Connector/Grafana workflows. Include anonymized architecture and sample data only.
+Suggested README sections
+Context and objective
+Architecture overview
+Data flow
+Tech stack
+Sample input/output using synthetic data
+How to run locally
+Screenshots / diagrams
+Confidentiality note
+AAS-to-DCAT Piveau Harvester
+A toolchain for querying FA3ST AAS Registry metadata, transforming AAS descriptors into DCAT-AP/JRC-compatible dataset descriptions, and publishing metadata into Piveau for data-space-ready discoverability.
+Suggested README sections
+Context and objective
+Architecture overview
+Data flow
+Tech stack
+Sample input/output using synthetic data
+How to run locally
+Screenshots / diagrams
+Confidentiality note
+AAS Time-Series Abstraction Layer
+A backend service that converts InfluxDB time-series/event data into standardized IDTA Time Series Submodels. The architecture includes configuration-driven database mappings, on-demand submodel generation, Submodel Repository API endpoints, and Submodel Registry integration.
+Suggested README sections
+Context and objective
+Architecture overview
+Data flow
+Tech stack
+Sample input/output using synthetic data
+How to run locally
+Screenshots / diagrams
+Confidentiality note
+Sovereign PCF Data Space Demonstrator
+A sanitized demonstrator description for automated PCF calculation and exchange across a sovereign data space, connecting production data, PCF calculation services, digital twins/AAS, EDC connectors, dashboarding, and scenario analytics.
+Suggested README sections
+Context and objective
+Architecture overview
+Data flow
+Tech stack
+Sample input/output using synthetic data
+How to run locally
+Screenshots / diagrams
+Confidentiality note
+ExELPro EMS Data Pipeline
+A battery-production experiment management data pipeline connecting SmartUnifier, Edge-PC, MQTT/OPC UA, Data Connector, InfluxDB v2, EMS, cloud/ML services, and optimized recipe parameter feedback for ML-ready training data.
+Suggested README sections
+Context and objective
+Architecture overview
+Data flow
+Tech stack
+Sample input/output using synthetic data
+How to run locally
+Screenshots / diagrams
+Confidentiality note
+FFB Lab Hub Digital Twin
+A Next.js digital-twin application concept that links laboratory room overview, device booking, device status, LIMS, ELN, dashboards, SOPs, safety information, and device details while keeping measurement data in connected systems.
+Suggested README sections
+Context and objective
+Architecture overview
+Data flow
+Tech stack
+Sample input/output using synthetic data
+How to run locally
+Screenshots / diagrams
+Confidentiality note
+Battery PCF Demonstrator OpenLCA API
+A PCF backend/frontend demonstrator exposing inventory, LCIA impact, process flow, and scrap data through APIs and visualizing the results with Sankey diagrams and process-level charts.
+Suggested README sections
+Context and objective
+Architecture overview
+Data flow
+Tech stack
+Sample input/output using synthetic data
+How to run locally
+Screenshots / diagrams
+Confidentiality note
+9. Skills matrix
+Field
+Details
+Backend / APIs
+Python, Flask, REST APIs, route design, data transformations, service architecture, configuration-driven services
+Frontend / Applications
+Vue.js, React, Vuetify, PyQt, Next.js, dashboards, configuration tables, user flows, lab hub application concepts
+Industrial IoT / Time series
+InfluxDB, MQTT, OPC UA, Telegraf, Grafana, Edge-PC, NUC, sensor integration, Xetics, MSB, SmartUnifier, data connectors
+AAS / Digital Twin
+AAS, BaSyx, FA3ST/FAAAST, AAS Registry, Submodel Repository API, Submodel Registry, IDTA Time Series Submodel, PCF AAS submodel, battery passport data models
+Data platforms / Data spaces
+Piveau, DCAT-AP, DCAT-AP JRC, ML/DCAT-AP, Piveau Harvester, Catena-X concepts, Manufacturing-X concepts, EDC connectors, data catalogues
+PCF / Sustainability
+Product Carbon Footprint, LCI, LCIA, OpenLCA, Umberto, KNIME, Power BI, dynamic PCF, CBAM-oriented concepts, battery/circular production PCF
+Battery production / EMS
+Mixing, coating, assembly, formation, continuous mixing, clean-room energy data, experiment management, ML-ready training data, parameter optimization
+Research / Communication
+Survey analysis, study report writing, paper/presentation content, architecture diagrams, requirements engineering, project coordination, Git/README documentation
+
+Public project links to keep in the document
+DigiBattPro 4.0: https://www.ipa.fraunhofer.de/en/reference_projects/digibattpro.html
+KI-Allianz Baden-Wuerttemberg: https://ki-allianz.de/en/
+KI Data Platform: https://ki-allianz.de/en/projects/ki-datenplattform/
+FRHY: https://www.ipa.fraunhofer.de/de/referenzprojekte/FRHY.html
+H2Giga: https://www.wasserstoff-leitprojekte.de/leitprojekte/h2giga
+ExELPro / KI-gestuetztes Experimentmanagement fuer die Batteriezellproduktion: https://www.ipa.fraunhofer.de/de/referenzprojekte/ki-gestuetztes-experimentmanagement-fuer-die-batteriezellproduktion.html
+Fraunhofer FFB: https://www.ffb.fraunhofer.de/
+	•	
