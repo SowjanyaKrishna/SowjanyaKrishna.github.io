@@ -141,18 +141,85 @@
           <div class="featured-project-content">
             <h3 class="featured-project-title">DigiBattPro 4.0 - Dynamic PCF & Battery Passport</h3>
             <div class="featured-project-desc">
-              <p>Implemented digital twin use cases connecting battery production data, dynamic Product Carbon Footprint
-                (PCF) calculation, and data-space concepts.</p>
-              <ul>
-                <li style="margin-bottom: 0.5rem"><strong>The Challenge:</strong> Bridging raw clean-room energy sensor
-                  data with standardized PCF calculation logic and creating a traceable Digital Battery Passport.</li>
-                <li style="margin-bottom: 0.5rem"><strong>The Solution:</strong> Built a data acquisition pipeline
-                  utilizing Xetics triggers and InfluxDB, integrated with AAS submodels and the FA3ST service
-                  repository.</li>
-                <li><strong>Results:</strong> Successfully connected dynamic production data with PCF environmental
-                  assessment, establishing a structured MVP for a searchable, interoperable Digital Battery Passport.
-                </li>
-              </ul>
+              <p>Implemented digital twin use cases connecting battery production data, dynamic Product Carbon Footprint (PCF) calculation, and data-space concepts.</p>
+              
+              <div style="margin-top: 1.5rem;">
+                <h4 style="font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.5rem;">Problem Statement</h4>
+                <ul style="list-style: none; padding-left: 0; color: var(--text-secondary);">
+                  <li style="margin-bottom: 0.5rem; position: relative; padding-left: 1.25rem;">
+                    <span style="position: absolute; left: 0; color: var(--accent-color);">▹</span>
+                    Battery cell production requires better transparency across process data, product data, energy consumption, and sustainability information.
+                  </li>
+                  <li style="margin-bottom: 0.5rem; position: relative; padding-left: 1.25rem;">
+                    <span style="position: absolute; left: 0; color: var(--accent-color);">▹</span>
+                    Product Carbon Footprint calculations are often static, manual, and disconnected from real production data.
+                  </li>
+                  <li style="margin-bottom: 0.5rem; position: relative; padding-left: 1.25rem;">
+                    <span style="position: absolute; left: 0; color: var(--accent-color);">▹</span>
+                    Battery lifecycle information is distributed across different systems, which makes traceability, reporting, and reuse of production data difficult.
+                  </li>
+                  <li style="margin-bottom: 0.5rem; position: relative; padding-left: 1.25rem;">
+                    <span style="position: absolute; left: 0; color: var(--accent-color);">▹</span>
+                    A Digital Battery Passport needs both static product information and dynamic production data to support future sustainability, traceability, and regulatory requirements.
+                  </li>
+                </ul>
+              </div>
+
+              <div style="margin-top: 1.5rem;">
+                <h4 style="font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.5rem;">Solution / My Contribution</h4>
+                <ul style="list-style: none; padding-left: 0; color: var(--text-secondary);">
+                  <li style="margin-bottom: 0.5rem; position: relative; padding-left: 1.25rem;">
+                    <span style="position: absolute; left: 0; color: var(--accent-color);">▹</span>
+                    I developed a Dynamic PCF demonstrator for battery cell production by connecting production data, energy sensor data, backend services, and PCF calculation logic.
+                  </li>
+                  <li style="margin-bottom: 0.5rem; position: relative; padding-left: 1.25rem;">
+                    <span style="position: absolute; left: 0; color: var(--accent-color);">▹</span>
+                    I implemented software components for collecting and structuring production-related data from battery manufacturing processes.
+                  </li>
+                  <li style="margin-bottom: 0.5rem; position: relative; padding-left: 1.25rem;">
+                    <span style="position: absolute; left: 0; color: var(--accent-color);">▹</span>
+                    I worked on the integration of Asset Administration Shell concepts and FA³ST Service to represent battery-related data in a standardized digital twin structure.
+                  </li>
+                  <li style="margin-bottom: 0.5rem; position: relative; padding-left: 1.25rem;">
+                    <span style="position: absolute; left: 0; color: var(--accent-color);">▹</span>
+                    I contributed to the development of a Battery Passport MVP that combines static battery master data with dynamic production data, process parameters, and Product Carbon Footprint results.
+                  </li>
+                  <li style="margin-bottom: 0.5rem; position: relative; padding-left: 1.25rem;">
+                    <span style="position: absolute; left: 0; color: var(--accent-color);">▹</span>
+                    I designed the concept for a searchable battery database where produced battery cells can be identified and linked to their lifecycle, production, and sustainability information.
+                  </li>
+                  <li style="margin-bottom: 0.5rem; position: relative; padding-left: 1.25rem;">
+                    <span style="position: absolute; left: 0; color: var(--accent-color);">▹</span>
+                    I supported the architecture design for connecting digital twin components, PCF data, production data, and passport-related information into one demonstrator workflow.
+                  </li>
+                </ul>
+              </div>
+
+              <div style="margin-top: 1.5rem;">
+                <h4 style="font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.5rem;">Results / Impact</h4>
+                <ul style="list-style: none; padding-left: 0; color: var(--text-secondary);">
+                  <li style="margin-bottom: 0.5rem; position: relative; padding-left: 1.25rem;">
+                    <span style="position: absolute; left: 0; color: var(--accent-color);">▹</span>
+                    Created a working demonstrator concept for dynamic Product Carbon Footprint calculation in battery cell production.
+                  </li>
+                  <li style="margin-bottom: 0.5rem; position: relative; padding-left: 1.25rem;">
+                    <span style="position: absolute; left: 0; color: var(--accent-color);">▹</span>
+                    Enabled structured access to battery-specific production, process, and sustainability data through a Digital Battery Passport approach.
+                  </li>
+                  <li style="margin-bottom: 0.5rem; position: relative; padding-left: 1.25rem;">
+                    <span style="position: absolute; left: 0; color: var(--accent-color);">▹</span>
+                    Improved traceability by linking produced battery cells with production data, PCF information, and lifecycle-relevant metadata.
+                  </li>
+                  <li style="margin-bottom: 0.5rem; position: relative; padding-left: 1.25rem;">
+                    <span style="position: absolute; left: 0; color: var(--accent-color);">▹</span>
+                    Demonstrated how AAS-based digital twin technologies can support Battery Passport use cases and sustainability reporting.
+                  </li>
+                  <li style="margin-bottom: 0.5rem; position: relative; padding-left: 1.25rem;">
+                    <span style="position: absolute; left: 0; color: var(--accent-color);">▹</span>
+                    Contributed to DigiBattPro 4.0 goals by supporting data-driven, transparent, and sustainable battery production.
+                  </li>
+                </ul>
+              </div>
             </div>
             <div class="featured-project-tech">
               <span class="tech-tag">Asset Administration Shell</span>
