@@ -355,25 +355,24 @@ section {
   color: var(--accent-color);
 }
 
-/* Projects Stack (Parth Style) */
-.projects-stack {
-  display: flex;
-  flex-direction: column;
-  gap: 4rem;
+/* Projects Grid Layout */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
 }
 
 .featured-project {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  height: 100%;
   background: var(--card-bg);
   border: 1px solid var(--card-border);
   border-radius: 16px;
   overflow: hidden;
   transition: var(--transition);
-}
-
-.featured-project:nth-child(even) {
-  flex-direction: row-reverse;
 }
 
 .featured-project:hover {
@@ -383,10 +382,11 @@ section {
 }
 
 .featured-project-img {
-  flex: 1;
+  width: 100%;
+  height: 250px;
   position: relative;
-  min-height: 300px;
   background: rgba(15, 23, 42, 0.5); /* Dark background frame for contain */
+  overflow: hidden;
 }
 
 .featured-project-img img,
@@ -406,30 +406,31 @@ section {
 }
 
 .featured-project-content {
-  flex: 1;
-  padding: 3rem;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  flex-grow: 1;
 }
 
 .featured-project-title {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
 .featured-project-desc {
   color: var(--text-secondary);
-  font-size: 1rem;
-  margin-bottom: 2rem;
+  font-size: 0.95rem;
   line-height: 1.6;
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
 }
 
 .featured-project-tech {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .project-links {
@@ -456,6 +457,13 @@ section {
   background: rgba(14, 165, 233, 0.2);
   border-color: var(--accent-color);
   color: var(--accent-color);
+}
+
+@media (max-width: 900px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
 }
 
 /* Skills (Sharath Style) */
